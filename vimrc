@@ -237,6 +237,9 @@ if has("autocmd")
 	      "
 " Pathogen Plugin
 call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 
