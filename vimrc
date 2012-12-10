@@ -255,6 +255,8 @@ map <leader>fl :Flisttoggle<CR>
 " ESC to clear search results
 nnoremap <Esc><Esc> :noh<CR><Esc>
 " Insta blame!!
-vmap gb :<C-U>!svn blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
+vmap gl :<C-U>!svn blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
+" Removes trailing whitespace with  ,nw
 nmap <leader>nw :%s/\s\+$//e<CR>
-" Removes trailing spaces
+" golang support
+set rtp+=goplugins
