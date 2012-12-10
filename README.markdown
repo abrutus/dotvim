@@ -7,6 +7,8 @@ git clone http://github.com/abrutus/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
 git submodule update --init
+# to update golang plugin from submodule
+ditto -V goplugins/ .
 ```
 
 I remapped the leader key to ,

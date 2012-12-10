@@ -258,5 +258,3 @@ nnoremap <Esc><Esc> :noh<CR><Esc>
 vmap gl :<C-U>!svn blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
 " Removes trailing whitespace with  ,nw
 nmap <leader>nw :%s/\s\+$//e<CR>
-" golang support
-set rtp+=goplugins
