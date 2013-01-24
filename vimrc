@@ -241,9 +241,9 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*pyc     " MacOSX/Linux
 
-let g:ctrlp_root_markers = ['.project']
+let g:ctrlp_root_markers = ['.project', '.git']
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 " Relative line numbers get disabled when on insert mode
 autocmd InsertEnter * :set number
@@ -258,3 +258,7 @@ nnoremap <Esc><Esc> :noh<CR><Esc>
 vmap gl :<C-U>!svn blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
 " Removes trailing whitespace with  ,nw
 nmap <leader>nw :%s/\s\+$//e<CR>
+" Scrolling
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
