@@ -72,7 +72,7 @@ set autoindent
 " set formatoptions=qrn1
 "
 " "Set incremental searching"
-" set incsearch
+set incsearch
 "
 " "Highlight searching
 set hlsearch
@@ -262,3 +262,6 @@ nmap <leader>nw :%s/\s\+$//e<CR>
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
+" newline end of file remove
+set binary
+set noeol
