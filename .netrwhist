@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/andre/.vim/goplugins/autoload/go'
 let g:netrw_dirhist_2='/Users/andre/.vim/goplugins/ftdetect'
+let g:netrw_dirhist_3='/Users/andre/repos/lenses/config'
+let g:netrw_dirhist_4='/Users/andre/repos/go-fac/src/jneufy/fac'
+let g:netrw_dirhist_5='/Users/andre/repos/floktok'
+let g:netrw_dirhist_6='/Users/andre/dev/code/wepay/trunk/application/controllers'
