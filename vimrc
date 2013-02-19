@@ -87,3 +87,5 @@ map <ScrollWheelDown> <C-E>
 " newline end of file remove
 set binary
 set noeol
+" map the ack plugin
+nmap <leader>f :Ack<space>
