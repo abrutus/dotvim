@@ -89,3 +89,5 @@ set binary
 set noeol
 " map the ack plugin
 nmap <leader>f :Ack<space>
+" set the K keyword to use pman instead of man with php files
+autocmd BufNewFile,BufRead *.php set keywordprg=pman
