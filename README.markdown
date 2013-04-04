@@ -21,3 +21,8 @@ Modules:
 + scala syntax
 
 Original idea from [vimcasts](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+
+
+Custom Binaries:
+
+Didn't like the Ack plugin so I wrote a wrapper for grep. To run, make sure ~/.vim/bin is in your $PATH and execute `:gg SEARCH_TERM`
