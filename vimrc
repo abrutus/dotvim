@@ -89,11 +89,16 @@ set binary
 set noeol
 " map the ack plugin
 nmap <leader>f :Ack<space>
+nmap <leader>t :Tabularize /= <CR>
 " set the K keyword to use pman instead of man with php files
 autocmd BufNewFile,BufRead *.php set keywordprg=pman
 " Lightup
 function Outside ()
 	let g:solarized_termcolors=256
-	set background=light
+	set background=dark
 	colorscheme solarized
 endfunction
+" see newlines
+"set listchars=eol:$,tab:\ \ 
+"
+set list listchars=tab:→\ ,trail:·

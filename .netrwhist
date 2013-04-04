@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/andre/.vim/goplugins/autoload/go'
 let g:netrw_dirhist_2='/Users/andre/.vim/goplugins/ftdetect'
 let g:netrw_dirhist_3='/Users/andre/repos/lenses/config'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/andre/repos/floktok'
 let g:netrw_dirhist_6='/Users/andre/dev/code/wepay/trunk/application/controllers'
 let g:netrw_dirhist_7='/Users/andre/dev/code/wepay/trunk/application/moneyengine/processors/wellsfargo'
 let g:netrw_dirhist_8='/Users/andre/.vim/indent'
+let g:netrw_dirhist_9='/Users/andre/dev/code/wepay/trunk/db'
